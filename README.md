@@ -1,6 +1,6 @@
 ## Essential Vim motions
 
-> This is not a Vim tutorial, but rather a compilation of what I think are the most useful Vim motions. Almost all of the keybindings are default Vim settings. The ones that are not are stated explicitly. Please read [this article](https://blog-swagatmitra.netlify.app/blog/vim) to understand the intuition behind these commands.
+> This is not a Vim tutorial, but a compilation of what I think are the most useful Vim motions. Almost all of the keybindings are default Vim settings. The ones that are not are stated explicitly. Please read [this article](https://blog-swagatmitra.netlify.app/blog/vim) to understand the intuition behind these commands.
 
 1. `j` - moves cursor down one line
 2. `k` - moves cursor up one line
@@ -24,7 +24,7 @@
 20. `X` - deletes the character to the left of the current character
 21. `(dd/cc)` - deletes current line (and enters insert mode)
 22. `(d/c)0` - deletes everything from current cursor position to the start of line (and enters insert mode)
-23. `D` - deletes everything from current cursor position to the end of line
+23. `(D/C)` - deletes everything from current cursor position to the end of line (and enters insert mode)
 24. `o` - inserts new line below current line
 25. `O` - inserts new line above current line
 26. `t(character)` - move to the position before the character
