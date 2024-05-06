@@ -1,6 +1,6 @@
 ## Essential Vim motions
 
-> This is not a Vim tutorial, but a compilation of what I think are the most useful Vim motions. Almost all of the keybindings are default Vim settings. The ones that are not are stated explicitly. Please read [this article](https://blog-swagatmitra.netlify.app/blog/vim) to understand the intuition behind these commands.
+> This is not a Vim tutorial, but a compilation of what I think are the most useful Vim motions. Almost all of the keybindings are default Vim settings. The ones that are not are stated explicitly. Please read [this article](https://swagatmitrab.netlify.app/blog/vim-like-no-one-else/) to understand the intuition behind these commands.
 
 1. `j` - moves cursor down one line
 2. `k` - moves cursor up one line
