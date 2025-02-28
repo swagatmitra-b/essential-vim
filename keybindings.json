@@ -1,10 +1,95 @@
 [
   {
-    "key": "ctrl+oem_7",
-    "command": "workbench.action.focusFirstEditorGroup"
+    "key": "space r",
+    "command": "workbench.action.nextEditorInGroup",
+    "when": "vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl+1",
-    "command": "-workbench.action.focusFirstEditorGroup"
+    "key": "space e",
+    "command": "workbench.action.previousEditorInGroup",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space v",
+    "command": "workbench.action.splitEditorLeft",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space s",
+    "command": "workbench.action.splitEditorDown",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space d",
+    "command": "workbench.action.focusLeftGroup",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space f",
+    "command": "workbench.action.focusRightGroup",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space k",
+    "command": "workbench.action.focusAboveGroup",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space j",
+    "command": "workbench.action.focusBelowGroup",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space n e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "shift-k",
+    "command": "editor.action.moveLinesUpAction"
+  },
+  {
+    "key": "shift-j",
+    "command": "editor.action.moveLinesDownAction"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.togglePanel",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.terminal.new",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.terminal.kill",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space t",
+    "command": "workbench.action.terminal.focus",
+    "when": "vim.mode == 'Normal' && !terminalFocus"
+  },
+  {
+    "key": "space t",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift-t",
+    "command": "editor.action.showHover",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space space",
+    "command": "workbench.action.quickOpen",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": "space f f",
+    "command": "workbench.view.explorer",
+    "when": "vim.mode == 'Normal'"
   }
 ]
