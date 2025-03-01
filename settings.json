@@ -18,5 +18,8 @@
     { "before": ["<C-d>"], "after": ["<C-d>", "z", "z"] },
     { "before": ["<S-y>"], "after": ["y", "$"] }
   ],
-  "vim.smartRelativeLine": true
+  "vim.smartRelativeLine": true,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
 }
