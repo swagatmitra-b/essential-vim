@@ -1,16 +1,22 @@
 {
   "vim.leader": "<Space>",
-  "vim.insertModeKeyBindings": 
+  "vim.insertModeKeyBindings": [
     {
       "before": ["j", "j"],
       "after": ["<Esc>"]
     }
-  ,
+  ],
   "vim.visualModeKeyBindings": [
     {
       "before": ["f", "f"],
       "after": ["<Esc>"]
     }
   ],
-  "vim.smartRelativeLine": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["f", "f"], "commands": [":ls"] },
+    { "before": ["<C-u>"], "after": ["<C-u>", "z", "z"] },
+    { "before": ["<C-d>"], "after": ["<C-d>", "z", "z"] },
+    { "before": ["<S-y>"], "after": ["y", "$"] }
+  ],
+  "vim.smartRelativeLine": true
 }

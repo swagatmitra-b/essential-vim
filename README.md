@@ -1,6 +1,6 @@
 ## Essential Vim motions
 
-> This is not a Vim tutorial, but a compilation of what I think are the most useful Vim motions. Almost all of the keybindings are default Vim settings. The ones that are not are stated explicitly. Please read [this article](https://swagatmitrab.netlify.app/blog/vim-like-no-one-else/) to understand the intuition behind these commands.
+> This is not a Vim tutorial, but a compilation of what I think are the most useful Vim motions. Almost all of the keybindings are default Vim keybinds. The ones that are not are stated explicitly. Some commands are ***VSCode Vim specific*** and may not work in Vim or Neovim. Please read [this article](https://swagatmitrab.netlify.app/blog/vim-like-no-one-else/) to understand the intuition behind these commands.
 
 1. `j` - moves cursor down one line
 2. `k` - moves cursor up one line
@@ -99,9 +99,10 @@
 95. `n` - go to the next match of word
 96. `N` - go the the previous match of word
 97. `dl` - deletes current character
-98. `=G` - formats the entire document
+98. `gg=G` - formats the entire document
 99. `(` - move backwards to the start of each sentence
 100. `)` - move forwards to the start of each sentence
+101. `Y` - Copies everything from current cursor position to end of line
 
 ### Visual Mode
 
